@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <style>
+    #nav{
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, red, yellow);
+ }
+
+
+        #grad1 {
+  width: 1800px;
+  height: 2000px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 1.5s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: purple;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+        </style>
+        </head>
+        <body>
+        <div id="nav"></div>
+        <h1>Da Jaus</h1>
+        <p>Compra, vende o alquila.</p>
+        
+        <div id="grad1"></div>
+        
+        
+</body>
+</html>
